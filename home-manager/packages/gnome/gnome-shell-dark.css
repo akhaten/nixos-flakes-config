@@ -1,0 +1,44 @@
+/* @import url("path/to/nordic-forest-theme/gnome-shell/gnome-shell.css");
+@import url("path/to/gnome-nord-extension/nord-icon-theme.css"); */
+
+/* Top bar */
+#panel {
+    background-color: #282c34;
+}
+
+/* Set a lighter text color for the window title */
+.titlebar {
+    color: #ccc;
+    background-color: #282c34;
+}
+
+/* Set a dark background color for the application overview */
+#overview {
+    background-color: #1e2128;
+}
+
+/* Set a lighter text color for the application overview */
+#overview .overview-icon,
+#overview .overview-icon-text {
+    color: #ccc;
+}
+
+/* Set a dark background color for the notification banner */
+.notification-banner-box {
+    background-color: #282c34;
+}
+
+/* Set a lighter text color for the notification text */
+.notification-banner-content {
+    color: #ccc;
+}
+
+/* Set a dark background color for the system tray */
+#aggregateMenu {
+    background-color: #282c34;
+}
+
+/* Set a lighter color for the system tray icons */
+#aggregateMenu .system-status-icon {
+    color: #ccc;
+}
